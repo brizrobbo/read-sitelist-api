@@ -1,0 +1,24 @@
+{
+    "name": "read-sitelist-api",
+    "version": "0.0.1",
+    "description": "API which grabs a JSON string (array list) and then iterates through files to do something.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brizrobbo/read-sitelist-api.git"
+    },
+    "author": "Craig Robinson",
+    "bugs": {
+        "url": "https://github.com/brizrobbo/read-sitelist-api/issues"
+    },
+    "homepage": "https://github.com/brizrobbo/read-sitelist-api#readme",
+    "dependencies": {
+        "body-parser": "latest",
+        "express": "latest",
+        "nodemon": "latest",
+        "request": "latest"
+    }
+}
